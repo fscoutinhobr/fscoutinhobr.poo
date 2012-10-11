@@ -1,0 +1,5 @@
+C:\Vb10sbs\Pos.Graduação\GestorDeBancos\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll
+C:\Vb10sbs\Pos.Graduação\GestorDeBancos\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.pdb
+C:\Vb10sbs\Pos.Graduação\GestorDeBancos\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo\obj\Debug\ResolveAssemblyReference.cache
+C:\Vb10sbs\Pos.Graduação\GestorDeBancos\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo\obj\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll
+C:\Vb10sbs\Pos.Graduação\GestorDeBancos\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo\obj\Debug\Infnet.EngSoft.SistemaBancario.Modelo.pdb

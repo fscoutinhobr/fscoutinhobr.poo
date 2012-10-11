@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Cliente" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Fisica" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Fisica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Telefone" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Telefone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Endereco" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAIAAAAAgACAAAAAAAAAAAAAgAABAAA=</HashCode>
+      <FileName>Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
