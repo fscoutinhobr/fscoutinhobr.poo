@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB11D36D-2DF8-4B8E-B858-AFDCC89A7D65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infnet.Engesoft.SysBank.Model.Teste</RootNamespace>
+    <AssemblyName>Infnet.Engesoft.SysBank.Model.Teste</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgenciaTeste.cs" />
+    <Compile Include="ClientePessoaFisicaTeste.cs" />
+    <Compile Include="ClientePessoaJuridicaTeste.cs" />
+    <Compile Include="RepositorioOrdemJudicialTeste.cs" />
+    <Compile Include="RepositorioTransacoesBancariasTeste.cs" />
+    <Compile Include="ServicoExtratoTeste.cs" />
+    <Compile Include="ServicosContaCorrenteTeste.cs" />
+    <Compile Include="ContaCorrenteEspecialTeste.cs" />
+    <Compile Include="ServicoDepositoTeste.cs" />
+    <Compile Include="RepositorioContaCorrenteTeste.cs" />
+    <Compile Include="ServicoSaqueTeste.cs" />
+    <Compile Include="EnderecoTeste.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ContaCorrenteNormalTeste.cs" />
+    <Compile Include="ServicoTransferenciaTeste.cs" />
+    <Compile Include="TelefoneTeste.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infnet.Engesoft.SysBank.Model\Infnet.Engesoft.SysBank.Model.csproj">
+      <Project>{26BB7529-2253-46F0-88F3-AF3DF5A6E8F2}</Project>
+      <Name>Infnet.Engesoft.SysBank.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
